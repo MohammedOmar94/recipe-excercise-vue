@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import Google Icon Font-->
+  <link href="./static/materialize.css" type="text/css" rel="stylesheet" />
+  <link href="./static/style.css" type="text/css" rel="stylesheet" />
+  <title>example-project</title>
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-git.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <ul id="account-dropdown-mobile" class="dropdown-content">
+    <li><a href="my-recipes.php"><i class="material-icons left">cake</i>My recipes</a></li>
+    <li><a href="my-ingredients.php"><i class="material-icons left">kitchen</i>My ingredients</a></li>
+  </ul>
+  <ul class="side-nav" id="mobile-demo">
+    <li><a href="index.php">Create recipes</a></li>
+    <li><a href="create-ingredients.php">Create ingredients</a></li>
+    <li><a class="dropdown-button" href="#!" data-activates="account-dropdown-mobile"><i class="material-icons left">account_circle</i>Account<i class="material-icons right">arrow_drop_down</i></a></li>
+  </ul>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
